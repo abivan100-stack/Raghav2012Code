@@ -5,6 +5,12 @@
 #  - concurrency group prevents a scheduled run overlapping a manual one.
 #  - the v1 build of the action does not expose its style/species outputs, so the
 #    commit message records the measured tree size instead.
+#  - the third-party action is pinned to a commit SHA (it runs with contents: write);
+#    bump it deliberately instead of following the moving v1 tag.
+#  - output/bonsai.gif is stored at an exact 2x nearest-neighbour scale. The README
+#    shows it at its natural size with NO width/height attributes, so the pixel art
+#    stays crisp whatever tree shape (92x109 tall ... 118x96 wide) the action grows.
+#    Never pin height in the README: GitHub injects height:auto on bare <img height=...>.
 name: bonsai
 
 on:
@@ -28,7 +34,7 @@ jobs:
         with:
           fetch-depth: 0   # full history so the rebase-before-push always has a base
 
-      - uses: egorthinks/git-bonsai@v1
+      - uses: egorthinks/git-bonsai@665258cab3f304cfb33a96fc7bf108cec1f452f3 # v1
         with:
           user: Raghav2012Code
           commit: 'false'   # we commit below, after trimming
@@ -68,6 +74,22 @@ jobs:
           # so record the tree's measured size instead - that is the daily signal.
           echo "tree=${W}x${H}" >> "$GITHUB_OUTPUT"
           echo "frames=${FR}"   >> "$GITHUB_OUTPUT"
+
+      - name: Upscale the tree 2x (crisp pixel art)
+        run: |
+          set -e
+          W=$(identify -format "%w" "output/bonsai.gif[0]")
+          H=$(identify -format "%h" "output/bonsai.gif[0]")
+          FR=$(identify output/bonsai.gif | wc -l)
+          # point filter = nearest neighbour: no blur, no new colours
+          convert output/bonsai.gif -coalesce -filter point -resize 200% +repage output/_2x.gif
+          W2=$(identify -format "%w" "output/_2x.gif[0]")
+          H2=$(identify -format "%h" "output/_2x.gif[0]")
+          FR2=$(identify output/_2x.gif | wc -l)
+          echo "upscaled ${W}x${H} -> ${W2}x${H2} (frames ${FR} -> ${FR2})"
+          test "$W2" -eq $((W * 2)) && test "$H2" -eq $((H * 2)) || { echo "UPSCALE SIZE WRONG"; exit 1; }
+          test "$FR2" -eq "$FR" || { echo "UPSCALE LOST FRAMES"; exit 1; }
+          mv output/_2x.gif output/bonsai.gif
 
       - name: Summarise
         env:
