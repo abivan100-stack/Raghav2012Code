@@ -45,31 +45,47 @@ I'm a 14-year-old in Class 9 in Chennai, and I lead my school's robotics team. I
 <a href="https://ollama.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=ollama&amp;theme=dark" width="56" alt="Ollama" /></a>
 </p>
 
-![Won: RIRC 2026, HingeGuard](https://img.shields.io/badge/Won-RIRC%202026%2C%20HingeGuard-1B2A33?labelColor=C73A72&style=flat-square) [![Won: PEC Hacks 4.0](https://img.shields.io/badge/Won-PEC%20Hacks%204.0-1B2A33?labelColor=C73A72&style=flat-square)](#august) [![Top 5: ZRC Technoxian 2026](https://img.shields.io/badge/Top%205-ZRC%20Technoxian%202026-1B2A33?labelColor=1F7A92&style=flat-square)](#july) [![Qualified: NRC (Noida)](https://img.shields.io/badge/Qualified-NRC%20(Noida)-1B2A33?labelColor=1F7A92&style=flat-square)](#july)
+![Won: RIRC 2026, HingeGuard](https://img.shields.io/badge/Won-RIRC%202026%2C%20HingeGuard-1B2A33?labelColor=C73A72&style=flat-square) [![Won: PEC Hacks 4.0](https://img.shields.io/badge/Won-PEC%20Hacks%204.0-1B2A33?labelColor=C73A72&style=flat-square)](#shipped-in-2026) [![Top 5: ZRC Technoxian 2026](https://img.shields.io/badge/Top%205-ZRC%20Technoxian%202026-1B2A33?labelColor=1F7A92&style=flat-square)](#shipped-in-2026) [![Qualified: NRC (Noida)](https://img.shields.io/badge/Qualified-NRC%20(Noida)-1B2A33?labelColor=1F7A92&style=flat-square)](#shipped-in-2026)
 
 ## Shipped in 2026
 
-### September
-
-**[EPL Predictor](https://github.com/Raghav2012Code/epl-predictor)**<br />
-Calibrated match forecasts from a stacked ensemble, with the production model picked by ranked probability score.<br />
-Python, TypeScript. &nbsp; [Code](https://github.com/Raghav2012Code/epl-predictor)
-
-### August
-
-**[Vault](https://github.com/abivan100-stack/vault)** &nbsp; ![Won: PEC Hacks 4.0](https://img.shields.io/badge/Won-PEC%20Hacks%204.0-1B2A33?labelColor=C73A72&style=flat-square)<br />
+<table>
+<tr>
+<td valign="top" width="50%">
+<a href="https://github.com/abivan100-stack/vault"><img src="assets/projects/vault.png" width="100%" alt="Vault: a cold-chain console showing a live temperature reading, the ledger status and the current shipment" /></a><br />
+<b><a href="https://github.com/abivan100-stack/vault">Vault</a></b><br />
+<img src="https://img.shields.io/badge/Won-PEC%20Hacks%204.0-1B2A33?labelColor=C73A72&amp;style=flat-square" alt="Won: PEC Hacks 4.0" /><br />
 Vaccine cold chain ledger with verifiable entries. Readings are simulated, and an edited entry breaks the hash chain.<br />
-React, TypeScript. &nbsp; [Code](https://github.com/abivan100-stack/vault)
-
-### July
-
-**[CRASH](https://github.com/abivan100-stack/C.R.A.S.H)** &nbsp; ![Top 5: ZRC Technoxian 2026](https://img.shields.io/badge/Top%205-ZRC%20Technoxian%202026-1B2A33?labelColor=1F7A92&style=flat-square)<br />
-Ranks Chennai's deadliest junctions from 10,169 recorded incidents and proposes an intervention for each. Qualified for NRC (Noida).<br />
-JavaScript, Python. &nbsp; [Live demo](https://crash-chennai.vercel.app) &nbsp; [Code](https://github.com/abivan100-stack/C.R.A.S.H)
-
-**[Volt](https://github.com/abivan100-stack/volt-ledger)** &nbsp; ![Participated: Shark Tank Challenge 2026](https://img.shields.io/badge/Participated-Shark%20Tank%20Challenge%202026-1B2A33?labelColor=704028&style=flat-square)<br />
+<sub>Aug 2026. React, TypeScript.</sub><br />
+<a href="https://github.com/abivan100-stack/vault">Code</a>
+</td>
+<td valign="top" width="50%">
+<a href="https://crash-chennai.vercel.app"><img src="assets/projects/crash.png" width="100%" alt="CRASH: a heat map of 10,169 road incidents across Greater Chennai" /></a><br />
+<b><a href="https://crash-chennai.vercel.app">CRASH</a></b><br />
+<img src="https://img.shields.io/badge/Top%205-ZRC%20Technoxian%202026-1B2A33?labelColor=1F7A92&amp;style=flat-square" alt="Top 5: ZRC Technoxian 2026" /> <img src="https://img.shields.io/badge/Qualified-NRC%20(Noida)-1B2A33?labelColor=1F7A92&amp;style=flat-square" alt="Qualified: NRC (Noida)" /><br />
+Ranks Chennai's deadliest junctions from 10,169 recorded incidents and proposes an intervention for each.<br />
+<sub>Jul 2026. JavaScript, Python.</sub><br />
+<a href="https://crash-chennai.vercel.app">Live demo</a> &nbsp; <a href="https://github.com/abivan100-stack/C.R.A.S.H">Code</a>
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+<a href="https://github.com/Raghav2012Code/epl-predictor"><img src="assets/projects/epl.png" width="100%" alt="EPL Predictor: the next fixture forecast with home, draw and away probabilities" /></a><br />
+<b><a href="https://github.com/Raghav2012Code/epl-predictor">EPL Predictor</a></b><br />
+Calibrated match forecasts from a stacked ensemble, with the production model picked by ranked probability score.<br />
+<sub>Sep 2026. Python, TypeScript.</sub><br />
+<a href="https://github.com/Raghav2012Code/epl-predictor">Code</a>
+</td>
+<td valign="top" width="50%">
+<a href="https://github.com/abivan100-stack/volt-ledger"><img src="assets/projects/volt.png" width="100%" alt="Volt: a live map of homes trading rooftop solar power across a neighbourhood microgrid" /></a><br />
+<b><a href="https://github.com/abivan100-stack/volt-ledger">Volt</a></b><br />
+<img src="https://img.shields.io/badge/Participated-Shark%20Tank%20Challenge%202026-1B2A33?labelColor=704028&amp;style=flat-square" alt="Participated: Shark Tank Challenge 2026" /><br />
 Peer-to-peer rooftop solar ledger. Neighbours trade surplus power, and every trade is SHA-256 chained in the browser.<br />
-TypeScript. &nbsp; [Code](https://github.com/abivan100-stack/volt-ledger)
+<sub>Jul 2026. TypeScript.</sub><br />
+<a href="https://github.com/abivan100-stack/volt-ledger">Code</a>
+</td>
+</tr>
+</table>
 
 ---
 
