@@ -40,8 +40,8 @@ Vaccine cold chain ledger with verifiable entries. Readings are simulated, and a
 <td valign="top" width="50%">
 <a href="https://crash-chennai.vercel.app"><img src="assets/projects/crash.png" width="100%" alt="CRASH: a heat map of 10,169 road incidents across Greater Chennai" /></a><br />
 <b>CRASH</b><br />
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/results/top5-zrc-dark.svg"><img src="assets/results/top5-zrc-light.svg" width="203" alt="Top 5: ZRC Technoxian 2026" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/results/qualified-nrc-dark.svg"><img src="assets/results/qualified-nrc-light.svg" width="169" alt="Qualified: NRC (Noida)" /></picture><br />
-Ranks Chennai's deadliest junctions from 10,169 recorded incidents and proposes an intervention for each.<br />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/results/top5-zrc-dark.svg"><img src="assets/results/top5-zrc-light.svg" width="203" alt="Top 5: ZRC Technoxian 2026" /></picture><br />
+Ranks Chennai's deadliest junctions from 10,169 recorded incidents and proposes an intervention for each. Qualified for NRC (Noida).<br />
 <sub>Jul 2026. JavaScript, Python.</sub><br />
 <a href="https://crash-chennai.vercel.app">Live demo</a> &nbsp; <a href="https://github.com/abivan100-stack/C.R.A.S.H">Code</a>
 </td>
