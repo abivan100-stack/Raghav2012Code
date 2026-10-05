@@ -14,35 +14,35 @@ I'm a 14-year-old in Class 9 in Chennai, and I lead my school's robotics team. I
 <picture><img src="output/bonsai.gif" width="184" align="right" alt="a pixel-art bonsai grown from my commit history" /></picture>
 
 <p>
-<a href="https://www.espressif.com/"><img src="assets/stack/esp32.svg" width="56" alt="ESP32" /></a>&nbsp;
-<a href="https://www.arduino.cc/"><img src="https://go-skill-icons.vercel.app/api/icons?i=arduino&amp;theme=dark" width="56" alt="Arduino" /></a>&nbsp;
-<a href="https://en.cppreference.com/w/c"><img src="https://go-skill-icons.vercel.app/api/icons?i=c&amp;theme=dark" width="56" alt="C" /></a>&nbsp;
-<a href="https://isocpp.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=cpp&amp;theme=dark" width="56" alt="C++" /></a>&nbsp;
-<a href="https://www.raylib.com/"><img src="assets/stack/raylib.svg" width="56" alt="Raylib" /></a>&nbsp;
-<a href="https://www.blender.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=blender&amp;theme=dark" width="56" alt="Blender" /></a>&nbsp;
-<a href="https://www.python.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=python&amp;theme=dark" width="56" alt="Python" /></a>&nbsp;
-<a href="https://www.typescriptlang.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=ts&amp;theme=dark" width="56" alt="TypeScript" /></a>
+<a href="https://www.espressif.com/"><img src="assets/stack/esp32.svg" width="50" alt="ESP32" /></a>&nbsp;
+<a href="https://www.arduino.cc/"><img src="https://go-skill-icons.vercel.app/api/icons?i=arduino&amp;theme=dark" width="50" alt="Arduino" /></a>&nbsp;
+<a href="https://en.cppreference.com/w/c"><img src="https://go-skill-icons.vercel.app/api/icons?i=c&amp;theme=dark" width="50" alt="C" /></a>&nbsp;
+<a href="https://isocpp.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=cpp&amp;theme=dark" width="50" alt="C++" /></a>&nbsp;
+<a href="https://www.raylib.com/"><img src="assets/stack/raylib.svg" width="50" alt="Raylib" /></a>&nbsp;
+<a href="https://www.blender.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=blender&amp;theme=dark" width="50" alt="Blender" /></a>&nbsp;
+<a href="https://www.python.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=python&amp;theme=dark" width="50" alt="Python" /></a>&nbsp;
+<a href="https://www.typescriptlang.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=ts&amp;theme=dark" width="50" alt="TypeScript" /></a>
 </p>
 
 <p>
-<a href="https://react.dev/"><img src="https://go-skill-icons.vercel.app/api/icons?i=react&amp;theme=dark" width="56" alt="React" /></a>&nbsp;
-<a href="https://html.spec.whatwg.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=html&amp;theme=dark" width="56" alt="HTML5" /></a>&nbsp;
-<a href="https://www.w3.org/TR/CSS/"><img src="https://go-skill-icons.vercel.app/api/icons?i=css&amp;theme=dark" width="56" alt="CSS" /></a>&nbsp;
-<a href="https://vercel.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=vercel&amp;theme=dark" width="56" alt="Vercel" /></a>&nbsp;
-<a href="https://fastapi.tiangolo.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=fastapi&amp;theme=dark" width="56" alt="FastAPI" /></a>&nbsp;
-<a href="https://supabase.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=supabase&amp;theme=dark" width="56" alt="Supabase" /></a>&nbsp;
-<a href="https://www.mongodb.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=mongodb&amp;theme=dark" width="56" alt="MongoDB" /></a>&nbsp;
-<a href="https://pandas.pydata.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=pandas&amp;theme=dark" width="56" alt="Pandas" /></a>&nbsp;
-<a href="https://scikit-learn.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=sklearn&amp;theme=dark" width="56" alt="scikit-learn" /></a>
+<a href="https://react.dev/"><img src="https://go-skill-icons.vercel.app/api/icons?i=react&amp;theme=dark" width="50" alt="React" /></a>&nbsp;
+<a href="https://html.spec.whatwg.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=html&amp;theme=dark" width="50" alt="HTML5" /></a>&nbsp;
+<a href="https://www.w3.org/TR/CSS/"><img src="https://go-skill-icons.vercel.app/api/icons?i=css&amp;theme=dark" width="50" alt="CSS" /></a>&nbsp;
+<a href="https://vercel.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=vercel&amp;theme=dark" width="50" alt="Vercel" /></a>&nbsp;
+<a href="https://fastapi.tiangolo.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=fastapi&amp;theme=dark" width="50" alt="FastAPI" /></a>&nbsp;
+<a href="https://supabase.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=supabase&amp;theme=dark" width="50" alt="Supabase" /></a>&nbsp;
+<a href="https://www.mongodb.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=mongodb&amp;theme=dark" width="50" alt="MongoDB" /></a>&nbsp;
+<a href="https://pandas.pydata.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=pandas&amp;theme=dark" width="50" alt="Pandas" /></a>
 </p>
 
 <p>
-<a href="https://git-scm.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=git&amp;theme=dark" width="56" alt="Git" /></a>&nbsp;
-<a href="https://www.kernel.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=linux&amp;theme=dark" width="56" alt="Linux" /></a>&nbsp;
-<a href="https://claude.com/product/claude-code"><img src="assets/stack/claude-code.svg" width="56" alt="Claude Code" /></a>&nbsp;
-<a href="https://opencode.ai/"><img src="assets/stack/opencode.svg" width="56" alt="OpenCode" /></a>&nbsp;
-<a href="https://www.deepseek.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=deepseek&amp;theme=dark" width="56" alt="DeepSeek" /></a>&nbsp;
-<a href="https://ollama.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=ollama&amp;theme=dark" width="56" alt="Ollama" /></a><br clear="all" />
+<a href="https://scikit-learn.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=sklearn&amp;theme=dark" width="50" alt="scikit-learn" /></a>&nbsp;
+<a href="https://git-scm.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=git&amp;theme=dark" width="50" alt="Git" /></a>&nbsp;
+<a href="https://www.kernel.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=linux&amp;theme=dark" width="50" alt="Linux" /></a>&nbsp;
+<a href="https://claude.com/product/claude-code"><img src="assets/stack/claude-code.svg" width="50" alt="Claude Code" /></a>&nbsp;
+<a href="https://opencode.ai/"><img src="assets/stack/opencode.svg" width="50" alt="OpenCode" /></a>&nbsp;
+<a href="https://www.deepseek.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=deepseek&amp;theme=dark" width="50" alt="DeepSeek" /></a>&nbsp;
+<a href="https://ollama.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=ollama&amp;theme=dark" width="50" alt="Ollama" /></a><br clear="all" />
 </p>
 
 ![Won: RIRC 2026, HingeGuard](https://img.shields.io/badge/Won-RIRC%202026%2C%20HingeGuard-1B2A33?labelColor=C73A72&style=flat-square) [![Won: PEC Hacks 4.0](https://img.shields.io/badge/Won-PEC%20Hacks%204.0-1B2A33?labelColor=C73A72&style=flat-square)](#shipped-in-2026) [![Top 5: ZRC Technoxian 2026](https://img.shields.io/badge/Top%205-ZRC%20Technoxian%202026-1B2A33?labelColor=1F7A92&style=flat-square)](#shipped-in-2026) [![Qualified: NRC (Noida)](https://img.shields.io/badge/Qualified-NRC%20(Noida)-1B2A33?labelColor=1F7A92&style=flat-square)](#shipped-in-2026)
