@@ -1,13 +1,13 @@
 # Raghav Krishna
 
+**Robotics lead. I build ESP32 hardware, ML pipelines and web apps.**
+
 <picture><img src="output/spacer.png" width="20" height="1" align="right" alt="" /></picture><!-- bonsai: pin WIDTH, never height. git-bonsai trees change aspect ratio with style
      (formal 92x109 tall vs slanted 118x96 wide); pinning height stretched the slanted
      tree to 288px and broke the layout.
      <picture> is also required: GitHub injects height:auto on bare <img height=...>.
      The <br clear="all"> after the results row keeps later sections under the float. -->
 <picture><img src="output/bonsai.gif" width="184" align="right" alt="a pixel-art bonsai grown from my commit history" /></picture>
-
-**Robotics lead. I build ESP32 hardware, ML pipelines and web apps.**
 
 I'm a 14-year-old in Class 9 in Chennai, and I lead my school's robotics team. I pair with coding agents to ship faster, and I own everything that touches the hardware.
 
