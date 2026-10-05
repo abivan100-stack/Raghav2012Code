@@ -1,35 +1,79 @@
 # Raghav Krishna
 
-![Daily Badge](https://badge.ava.kim/badge.svg?tz=Asia/Kolkata&pack=tech-facts,dev-humor,stoic&seed=Raghav2012Code&style=flat&color=8b949e)
+<picture><img src="output/spacer.png" width="20" height="1" align="right" alt="" /></picture><!-- bonsai: pin WIDTH, never height. git-bonsai trees change aspect ratio with style
+     (formal 92x109 tall vs slanted 118x96 wide); pinning height stretched the slanted
+     tree to 288px and broke the layout.
+     <picture> is also required: GitHub injects height:auto on bare <img height=...>.
+     The <br clear="all"> after the results row keeps later sections under the float. -->
+<picture><img src="output/bonsai.gif" width="184" align="right" alt="a pixel-art bonsai grown from my commit history" /></picture>
 
-I'm a 14-year-old freshman (Class 9) in Chennai, and I lead my school's robotics team. I build ESP32 hardware, ML pipelines, and deployed web apps. I pair with coding agents to ship faster, and I own everything that touches the hardware.
+**Robotics lead. I build ESP32 hardware, ML pipelines and web apps.**
+
+I'm a 14-year-old in Class 9 in Chennai, and I lead my school's robotics team. I pair with coding agents to ship faster, and I own everything that touches the hardware.
+
+[Portfolio](https://raghavkrishna-dev.vercel.app) &nbsp;&nbsp; [X](https://x.com/raghav7krishna)
+
+![Won: RIRC 2026, HingeGuard](https://img.shields.io/badge/Won-RIRC%202026%2C%20HingeGuard-1B2A33?labelColor=C73A72&style=flat-square) [![Won: PEC Hacks 4.0](https://img.shields.io/badge/Won-PEC%20Hacks%204.0-1B2A33?labelColor=C73A72&style=flat-square)](#august) [![Top 5: ZRC Technoxian 2026](https://img.shields.io/badge/Top%205-ZRC%20Technoxian%202026-1B2A33?labelColor=1F7A92&style=flat-square)](#july) [![Qualified: NRC (Noida)](https://img.shields.io/badge/Qualified-NRC%20(Noida)-1B2A33?labelColor=1F7A92&style=flat-square)](#july)<br clear="all" />
+
+## Shipped in 2026
+
+### September
+
+**[EPL Predictor](https://github.com/Raghav2012Code/epl-predictor)**<br />
+Calibrated match forecasts from a stacked ensemble, with the production model picked by ranked probability score.<br />
+Python, TypeScript. &nbsp; [Code](https://github.com/Raghav2012Code/epl-predictor)
+
+### August
+
+**[Vault](https://github.com/abivan100-stack/vault)** &nbsp; ![Won: PEC Hacks 4.0](https://img.shields.io/badge/Won-PEC%20Hacks%204.0-1B2A33?labelColor=C73A72&style=flat-square)<br />
+Vaccine cold chain ledger with verifiable entries. Readings are simulated, and an edited entry breaks the hash chain.<br />
+React, TypeScript. &nbsp; [Code](https://github.com/abivan100-stack/vault)
+
+### July
+
+**[CRASH](https://github.com/abivan100-stack/C.R.A.S.H)** &nbsp; ![Top 5: ZRC Technoxian 2026](https://img.shields.io/badge/Top%205-ZRC%20Technoxian%202026-1B2A33?labelColor=1F7A92&style=flat-square)<br />
+Ranks Chennai's deadliest junctions from 10,169 recorded incidents and proposes an intervention for each. Qualified for NRC (Noida).<br />
+JavaScript, Python. &nbsp; [Live demo](https://crash-chennai.vercel.app) &nbsp; [Code](https://github.com/abivan100-stack/C.R.A.S.H)
+
+**[Volt](https://github.com/abivan100-stack/volt-ledger)** &nbsp; ![Participated: Shark Tank Challenge 2026](https://img.shields.io/badge/Participated-Shark%20Tank%20Challenge%202026-1B2A33?labelColor=704028&style=flat-square)<br />
+Peer-to-peer rooftop solar ledger. Neighbours trade surplus power, and every trade is SHA-256 chained in the browser.<br />
+TypeScript. &nbsp; [Code](https://github.com/abivan100-stack/volt-ledger)
 
 ## Stack
 
-<picture><img src="output/spacer.png" width="20" height="1" align="right" alt="" /></picture><!-- bonsai: pin WIDTH, never height. git-bonsai trees change aspect ratio with style
-     (formal 92x109 tall vs slanted 118x96 wide); pinning height stretched the slanted
-     tree to 288px and collapsed the badge grid to one badge per row.
-     <picture> is also required: GitHub injects height:auto on bare <img height=...>.
-     The <br clear="all"> below the grid keeps later sections under the float. -->
-<picture><img src="output/bonsai.gif" width="184" align="right" alt="a pixel-art bonsai grown from my commit history" /></picture>
+<p><b>Embedded and graphics</b><br />
+<a href="https://www.espressif.com/"><img src="https://cdn.simpleicons.org/espressif/E7352C" width="30" alt="ESP32" /></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.arduino.cc/"><img src="https://cdn.simpleicons.org/arduino/00878F" width="30" alt="Arduino" /></a>&nbsp;&nbsp;&nbsp;
+<a href="https://en.cppreference.com/w/c"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/c/A8B9CC"><img src="https://cdn.simpleicons.org/c/7e8b99" width="30" alt="C" /></picture></a>&nbsp;&nbsp;&nbsp;
+<a href="https://isocpp.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/cplusplus/1a6aa6"><img src="https://cdn.simpleicons.org/cplusplus/00599C" width="30" alt="C++" /></picture></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.raylib.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/raylib/e6edf3"><img src="https://cdn.simpleicons.org/raylib/000000" width="30" alt="Raylib" /></picture></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.blender.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/blender/E87D0D"><img src="https://cdn.simpleicons.org/blender/d1710c" width="30" alt="Blender" /></picture></a></p>
 
-[![Arduino](https://img.shields.io/badge/Arduino-%2300979D.svg?style=for-the-badge&logo=Arduino&logoColor=white)](https://www.arduino.cc/) [![Python](https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/) [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://react.dev/) [![Supabase](https://img.shields.io/badge/Supabase-%233ECF8E.svg?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/) [![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/) [![FastAPI](https://img.shields.io/badge/fastapi-%23009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/) [![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/) [![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/) [![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](https://en.cppreference.com/w/c) [![Raylib](https://img.shields.io/badge/RAYLIB-%23FFFFFF.svg?style=for-the-badge&logo=raylib&logoColor=black)](https://www.raylib.com/) [![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)](https://www.blender.org/) [![CSS](https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white)](https://www.w3.org/TR/CSS/) [![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://html.spec.whatwg.org/) [![OpenCode](https://img.shields.io/badge/opencode-%23000000.svg?style=for-the-badge&logo=opencode&logoColor=ffffff)](https://opencode.ai/) [![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/) [![Claude Code](https://img.shields.io/badge/Claude%20Code-%23D97757.svg?style=for-the-badge&logo=claudecode&logoColor=white)](https://claude.com/product/claude-code) [![DeepSeek](https://img.shields.io/badge/DeepSeek-%235786FE.svg?style=for-the-badge&logo=deepseek&logoColor=white)](https://www.deepseek.com/) [![Ollama](https://img.shields.io/badge/ollama-%23000000.svg?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.com/) [![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)](https://www.kernel.org/) [![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)<br clear="all" />
+<p><b>Web</b><br />
+<a href="https://www.typescriptlang.org/"><img src="https://cdn.simpleicons.org/typescript/3178C6" width="30" alt="TypeScript" /></a>&nbsp;&nbsp;&nbsp;
+<a href="https://react.dev/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/react/61DAFB"><img src="https://cdn.simpleicons.org/react/4499b0" width="30" alt="React" /></picture></a>&nbsp;&nbsp;&nbsp;
+<a href="https://html.spec.whatwg.org/"><img src="https://cdn.simpleicons.org/html5/E34F26" width="30" alt="HTML5" /></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.w3.org/TR/CSS/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/css/7d52a8"><img src="https://cdn.simpleicons.org/css/663399" width="30" alt="CSS" /></picture></a>&nbsp;&nbsp;&nbsp;
+<a href="https://vercel.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/vercel/e6edf3"><img src="https://cdn.simpleicons.org/vercel/000000" width="30" alt="Vercel" /></picture></a></p>
 
-## Competitions
+<p><b>Data and backend</b><br />
+<a href="https://www.python.org/"><img src="https://cdn.simpleicons.org/python/3776AB" width="30" alt="Python" /></a>&nbsp;&nbsp;&nbsp;
+<a href="https://fastapi.tiangolo.com/"><img src="https://cdn.simpleicons.org/fastapi/009688" width="30" alt="FastAPI" /></a>&nbsp;&nbsp;&nbsp;
+<a href="https://supabase.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/supabase/3FCF8E"><img src="https://cdn.simpleicons.org/supabase/2f9b6b" width="30" alt="Supabase" /></picture></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.mongodb.com/"><img src="https://cdn.simpleicons.org/mongodb/47A248" width="30" alt="MongoDB" /></a>&nbsp;&nbsp;&nbsp;
+<a href="https://pandas.pydata.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/pandas/73689b"><img src="https://cdn.simpleicons.org/pandas/150458" width="30" alt="Pandas" /></picture></a>&nbsp;&nbsp;&nbsp;
+<a href="https://scikit-learn.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/scikitlearn/F7931E"><img src="https://cdn.simpleicons.org/scikitlearn/c67618" width="30" alt="scikit-learn" /></picture></a></p>
 
-| Event | Project | Result |
-| :--- | :--- | :--- |
-| RIRC 2026 | **HingeGuard** | **Won** |
-| PEC Hacks 4.0 | [**Vault**](https://github.com/abivan100-stack/vault) | **Won** |
-| ZRC Technoxian 2026 | [**CRASH**](https://github.com/abivan100-stack/C.R.A.S.H) | **Top 5**, qualified for NRC (Noida) |
-| Shark Tank Challenge 2026 | [**Volt**](https://github.com/abivan100-stack/volt-ledger) | Participated |
+<p><b>Tools and AI</b><br />
+<a href="https://git-scm.com/"><img src="https://cdn.simpleicons.org/git/F03C2E" width="30" alt="Git" /></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.kernel.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/linux/FCC624"><img src="https://cdn.simpleicons.org/linux/b08b19" width="30" alt="Linux" /></picture></a>&nbsp;&nbsp;&nbsp;
+<a href="https://claude.com/product/claude-code"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/claudecode/D97757"><img src="https://cdn.simpleicons.org/claudecode/ce7153" width="30" alt="Claude Code" /></picture></a>&nbsp;&nbsp;&nbsp;
+<a href="https://opencode.ai/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/opencode/e6edf3"><img src="https://cdn.simpleicons.org/opencode/000000" width="30" alt="OpenCode" /></picture></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.deepseek.com/"><img src="https://cdn.simpleicons.org/deepseek/5786FE" width="30" alt="DeepSeek" /></a>&nbsp;&nbsp;&nbsp;
+<a href="https://ollama.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/ollama/e6edf3"><img src="https://cdn.simpleicons.org/ollama/000000" width="30" alt="Ollama" /></picture></a></p>
 
-## Projects
+---
 
-| Project | What it does | Built |
-| :--- | :--- | :--- |
-| [Volt](https://github.com/abivan100-stack/volt-ledger) | Peer-to-peer rooftop solar ledger, SHA-256 chained in the browser | Jul 2026 |
-| [Vault](https://github.com/abivan100-stack/vault) | Vaccine cold chain ledger with verifiable entries | Aug 2026 |
-| [CRASH](https://github.com/abivan100-stack/C.R.A.S.H) | Ranks Chennai's deadliest junctions and proposes interventions | Jul 2026 |
-| [EPL Predictor](https://github.com/Raghav2012Code/epl-predictor) | Calibrated match forecasts, production picked by RPS | Sep 2026 |
+<sub>The bonsai is grown from my commit history by [git-bonsai](https://github.com/egorthinks/git-bonsai) and regrown every day.</sub>
 
+![Daily line from badge.ava.kim: a tech fact, dev joke or stoic quote](https://badge.ava.kim/badge.svg?tz=Asia/Kolkata&pack=tech-facts,dev-humor,stoic&seed=Raghav2012Code&style=flat&color=8b949e)
