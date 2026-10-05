@@ -58,13 +58,13 @@ Ranks Chennai's deadliest junctions from 10,169 recorded incidents and proposes 
 ## 2026 as a commit log
 
 ```text
-* f427ad0 (HEAD -> main) Sep: EPL Predictor
-* c811b22 (tag: won-pec-hacks-4.0) Aug: Vault
-* 11719da (tag: top-5-nrc-qualifier) Jul: CRASH
-* 73b5ff6 (tag: shark-tank-participant) Jul: Volt
+* 6cba11d (HEAD) Sep EPL Predictor
+* 80b0afb (tag: won) Aug Vault
+* 128d9e1 (tag: top-5) Jul CRASH
+* 6eb3191 (tag: entered) Jul Volt
 ```
 
-<sub>Newest first, tags are results. Each hash is the first 7 characters of SHA-256 over the previous hash, a space and the text after the hash, starting from `0000000`. Edit any line and its hash and every hash above it change, the same idea as the ledgers in Vault and Volt.</sub>
+<sub>Newest first; tags are results. Each hash is the first 7 characters of SHA-256 over the previous hash, a space and the text after the hash, starting from `0000000`. Edit any line and its hash and every hash above it change, the same idea as the ledgers in Vault and Volt.</sub>
 
 ---
 
