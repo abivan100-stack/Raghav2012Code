@@ -39,40 +39,38 @@ Ranks Chennai's deadliest junctions from 10,169 recorded incidents and proposes 
 <sub>Jul 2026. JavaScript, Python.</sub><br />
 [Live demo](https://crash-chennai.vercel.app) &nbsp; [Code](https://github.com/abivan100-stack/C.R.A.S.H)<br clear="all" />
 
-**Also built.** [EPL Predictor](https://github.com/Raghav2012Code/epl-predictor) forecasts Premier League matches with a calibrated stacked ensemble. [Volt](https://github.com/abivan100-stack/volt-ledger) is a peer-to-peer rooftop solar ledger where every trade is SHA-256 chained in the browser. [urbania](https://github.com/Raghav2012Code/urbania) is a 2D city simulator in C++ and raylib. [saas-lab](https://github.com/Raghav2012Code/saas-lab) ([live](https://saas-lab-ten.vercel.app)) is an interactive SaaS financial modelling tool.
+<a href="https://github.com/abivan100-stack/volt-ledger"><img src="assets/projects/volt.png" align="right" width="46%" alt="Volt: a live map of homes trading rooftop solar power across a neighbourhood microgrid" /></a><picture><img src="output/spacer.png" width="20" height="1" align="right" alt="" /></picture>
+
+### Volt
+
+<img src="assets/led/entered.svg" width="14" align="absmiddle" alt="" />&nbsp; **Participated** Shark Tank Challenge 2026<br />
+Peer-to-peer rooftop solar ledger. Neighbours trade surplus power, and every trade is SHA-256 chained in the browser.<br />
+<sub>Jul 2026. TypeScript.</sub><br />
+[Code](https://github.com/abivan100-stack/volt-ledger)<br clear="all" />
+
+<a href="https://github.com/Raghav2012Code/epl-predictor"><img src="assets/projects/epl.png" align="left" width="46%" alt="EPL Predictor: the next fixture forecast with home, draw and away probabilities" /></a><picture><img src="output/spacer.png" width="20" height="1" align="left" alt="" /></picture>
+
+### EPL Predictor
+
+Calibrated match forecasts from a stacked ensemble, with the production model picked by ranked probability score.<br />
+<sub>Sep 2026. Python, TypeScript.</sub><br />
+[Code](https://github.com/Raghav2012Code/epl-predictor)<br clear="all" />
+
+**Also built.** [urbania](https://github.com/Raghav2012Code/urbania) is a 2D top-down city simulator in C++ and raylib where you build roads, zone districts and watch citizens find jobs. [saas-lab](https://github.com/Raghav2012Code/saas-lab) ([live](https://saas-lab-ten.vercel.app)) is an interactive SaaS financial modelling tool for calculating metrics and projecting growth.
 
 ## Stack
 
 <b>Embedded and graphics</b><br />
-<a href="https://www.espressif.com/"><img src="assets/logos/espressif.svg" width="26" alt="ESP32" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://www.arduino.cc/"><img src="assets/logos/arduino.svg" width="26" alt="Arduino" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://en.cppreference.com/w/c"><img src="assets/logos/c.svg" width="26" alt="C" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://isocpp.org/"><img src="assets/logos/cplusplus.svg" width="26" alt="C++" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://www.raylib.com/"><img src="assets/logos/raylib.svg" width="26" alt="Raylib" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://www.blender.org/"><img src="assets/logos/blender.svg" width="26" alt="Blender" /></a>
+<a href="https://www.espressif.com/"><img src="assets/tiles/espressif.svg" width="56" alt="ESP32" /></a><a href="https://www.arduino.cc/"><img src="assets/tiles/arduino.svg" width="56" alt="Arduino" /></a><a href="https://en.cppreference.com/w/c"><img src="assets/tiles/c.svg" width="56" alt="C" /></a><a href="https://isocpp.org/"><img src="assets/tiles/cplusplus.svg" width="56" alt="C++" /></a><a href="https://www.raylib.com/"><img src="assets/tiles/raylib.svg" width="56" alt="Raylib" /></a><a href="https://www.blender.org/"><img src="assets/tiles/blender.svg" width="56" alt="Blender" /></a>
 
 <b>Web</b><br />
-<a href="https://www.typescriptlang.org/"><img src="assets/logos/typescript.svg" width="26" alt="TypeScript" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://react.dev/"><img src="assets/logos/react.svg" width="26" alt="React" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://html.spec.whatwg.org/"><img src="assets/logos/html5.svg" width="26" alt="HTML5" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://www.w3.org/TR/CSS/"><img src="assets/logos/css.svg" width="26" alt="CSS" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://vercel.com/"><img src="assets/logos/vercel.svg" width="26" alt="Vercel" /></a>
+<a href="https://www.typescriptlang.org/"><img src="assets/tiles/typescript.svg" width="56" alt="TypeScript" /></a><a href="https://react.dev/"><img src="assets/tiles/react.svg" width="56" alt="React" /></a><a href="https://html.spec.whatwg.org/"><img src="assets/tiles/html5.svg" width="56" alt="HTML5" /></a><a href="https://www.w3.org/TR/CSS/"><img src="assets/tiles/css.svg" width="56" alt="CSS" /></a><a href="https://vercel.com/"><img src="assets/tiles/vercel.svg" width="56" alt="Vercel" /></a>
 
 <b>Data and backend</b><br />
-<a href="https://www.python.org/"><img src="assets/logos/python.svg" width="26" alt="Python" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://fastapi.tiangolo.com/"><img src="assets/logos/fastapi.svg" width="26" alt="FastAPI" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://supabase.com/"><img src="assets/logos/supabase.svg" width="26" alt="Supabase" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://www.mongodb.com/"><img src="assets/logos/mongodb.svg" width="26" alt="MongoDB" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://pandas.pydata.org/"><img src="assets/logos/pandas.svg" width="26" alt="Pandas" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://scikit-learn.org/"><img src="assets/logos/scikitlearn.svg" width="26" alt="scikit-learn" /></a>
+<a href="https://www.python.org/"><img src="assets/tiles/python.svg" width="56" alt="Python" /></a><a href="https://fastapi.tiangolo.com/"><img src="assets/tiles/fastapi.svg" width="56" alt="FastAPI" /></a><a href="https://supabase.com/"><img src="assets/tiles/supabase.svg" width="56" alt="Supabase" /></a><a href="https://www.mongodb.com/"><img src="assets/tiles/mongodb.svg" width="56" alt="MongoDB" /></a><a href="https://pandas.pydata.org/"><img src="assets/tiles/pandas.svg" width="56" alt="Pandas" /></a><a href="https://scikit-learn.org/"><img src="assets/tiles/scikitlearn.svg" width="56" alt="scikit-learn" /></a>
 
 <b>Tools and AI</b><br />
-<a href="https://git-scm.com/"><img src="assets/logos/git.svg" width="26" alt="Git" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://www.kernel.org/"><img src="assets/logos/linux.svg" width="26" alt="Linux" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://claude.com/product/claude-code"><img src="assets/logos/claudecode.svg" width="26" alt="Claude Code" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://opencode.ai/"><img src="assets/logos/opencode.svg" width="26" alt="OpenCode" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://www.deepseek.com/"><img src="assets/logos/deepseek.svg" width="26" alt="DeepSeek" /></a>&nbsp;&nbsp;&nbsp;
-<a href="https://ollama.com/"><img src="assets/logos/ollama.svg" width="26" alt="Ollama" /></a>
+<a href="https://git-scm.com/"><img src="assets/tiles/git.svg" width="56" alt="Git" /></a><a href="https://www.kernel.org/"><img src="assets/tiles/linux.svg" width="56" alt="Linux" /></a><a href="https://claude.com/product/claude-code"><img src="assets/tiles/claudecode.svg" width="56" alt="Claude Code" /></a><a href="https://opencode.ai/"><img src="assets/tiles/opencode.svg" width="56" alt="OpenCode" /></a><a href="https://www.deepseek.com/"><img src="assets/tiles/deepseek.svg" width="56" alt="DeepSeek" /></a><a href="https://ollama.com/"><img src="assets/tiles/ollama.svg" width="56" alt="Ollama" /></a>
 
 ---
 
