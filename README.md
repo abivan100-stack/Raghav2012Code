@@ -19,7 +19,7 @@ I'm a 14-year-old in Class 9 in Chennai, and I lead my school's robotics team. I
      The <br clear="all"> after the stack keeps the next section under the float. -->
 <picture><img src="output/bonsai.gif" width="184" align="right" alt="a pixel-art bonsai grown from my commit history" /></picture>
 
-<b>Embedded and graphics</b><br />
+<b>Embedded and 3D</b><br />
 <a href="https://www.espressif.com/"><img src="assets/tiles/espressif.svg" width="52" alt="ESP32" /></a><a href="https://www.arduino.cc/"><img src="assets/tiles/arduino.svg" width="52" alt="Arduino" /></a><a href="https://en.cppreference.com/w/c"><img src="assets/tiles/c.svg" width="52" alt="C" /></a><a href="https://isocpp.org/"><img src="assets/tiles/cplusplus.svg" width="52" alt="C++" /></a><a href="https://www.raylib.com/"><img src="assets/tiles/raylib.svg" width="52" alt="Raylib" /></a><a href="https://www.blender.org/"><img src="assets/tiles/blender.svg" width="52" alt="Blender" /></a>
 
 <b>Web</b><br />
