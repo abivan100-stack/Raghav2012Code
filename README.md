@@ -21,7 +21,7 @@ I'm a 14-year-old in Class 9 in Chennai, and I lead my school's robotics team. I
 
 ## Work
 
-<a href="https://github.com/abivan100-stack/vault"><img src="assets/projects/vault.png" align="right" width="50%" alt="Vault: a cold-chain console showing a live temperature reading, the ledger status and the current shipment" /></a><picture><img src="output/spacer.png" width="20" height="1" align="right" alt="" /></picture>
+<a href="https://github.com/abivan100-stack/vault"><img src="assets/projects/vault.png" align="right" width="44%" alt="Vault: a cold-chain console showing a live temperature reading, the ledger status and the current shipment" /></a><picture><img src="output/spacer.png" width="20" height="1" align="right" alt="" /></picture>
 
 ### Vault
 
@@ -29,7 +29,7 @@ I'm a 14-year-old in Class 9 in Chennai, and I lead my school's robotics team. I
 Vaccine cold chain ledger with verifiable entries. Readings are simulated, and an edited entry breaks the hash chain.<br />
 <sub>Aug 2026. React, TypeScript.</sub> &nbsp; [Code](https://github.com/abivan100-stack/vault)<br clear="all" />
 
-<a href="https://crash-chennai.vercel.app"><img src="assets/projects/crash.png" align="left" width="50%" alt="CRASH: a heat map of 10,169 road incidents across Greater Chennai" /></a><picture><img src="output/spacer.png" width="20" height="1" align="left" alt="" /></picture>
+<a href="https://crash-chennai.vercel.app"><img src="assets/projects/crash.png" align="left" width="44%" alt="CRASH: a heat map of 10,169 road incidents across Greater Chennai" /></a><picture><img src="output/spacer.png" width="20" height="1" align="left" alt="" /></picture>
 
 ### CRASH
 
@@ -37,7 +37,7 @@ Vaccine cold chain ledger with verifiable entries. Readings are simulated, and a
 Ranks Chennai's deadliest junctions from 10,169 recorded incidents and proposes an intervention for each.<br />
 <sub>Jul 2026. JavaScript, Python.</sub> &nbsp; [Live demo](https://crash-chennai.vercel.app) &nbsp; [Code](https://github.com/abivan100-stack/C.R.A.S.H)<br clear="all" />
 
-<a href="https://github.com/abivan100-stack/volt-ledger"><img src="assets/projects/volt.png" align="right" width="50%" alt="Volt: a live map of homes trading rooftop solar power across a neighbourhood microgrid" /></a><picture><img src="output/spacer.png" width="20" height="1" align="right" alt="" /></picture>
+<a href="https://github.com/abivan100-stack/volt-ledger"><img src="assets/projects/volt.png" align="right" width="44%" alt="Volt: a live map of homes trading rooftop solar power across a neighbourhood microgrid" /></a><picture><img src="output/spacer.png" width="20" height="1" align="right" alt="" /></picture>
 
 ### Volt
 
@@ -45,7 +45,7 @@ Ranks Chennai's deadliest junctions from 10,169 recorded incidents and proposes 
 Peer-to-peer rooftop solar ledger. Neighbours trade surplus power, and every trade is SHA-256 chained in the browser.<br />
 <sub>Jul 2026. TypeScript.</sub> &nbsp; [Code](https://github.com/abivan100-stack/volt-ledger)<br clear="all" />
 
-<a href="https://github.com/Raghav2012Code/epl-predictor"><img src="assets/projects/epl.png" align="left" width="50%" alt="EPL Predictor: the next fixture forecast with home, draw and away probabilities" /></a><picture><img src="output/spacer.png" width="20" height="1" align="left" alt="" /></picture>
+<a href="https://github.com/Raghav2012Code/epl-predictor"><img src="assets/projects/epl.png" align="left" width="44%" alt="EPL Predictor: the next fixture forecast with home, draw and away probabilities" /></a><picture><img src="output/spacer.png" width="20" height="1" align="left" alt="" /></picture>
 
 ### EPL Predictor
 
