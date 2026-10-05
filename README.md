@@ -2,16 +2,16 @@
 
 **Robotics lead. I build ESP32 hardware, ML pipelines and web apps.**
 
+I'm a 14-year-old in Class 9 in Chennai, and I lead my school's robotics team. I pair with coding agents to ship faster, and I own everything that touches the hardware.
+
+[Portfolio](https://raghavkrishna-dev.vercel.app) &nbsp;&nbsp; [X](https://x.com/raghav7krishna)
+
 <picture><img src="output/spacer.png" width="20" height="1" align="right" alt="" /></picture><!-- bonsai: pin WIDTH, never height. git-bonsai trees change aspect ratio with style
      (formal 92x109 tall vs slanted 118x96 wide); pinning height stretched the slanted
      tree to 288px and broke the layout.
      <picture> is also required: GitHub injects height:auto on bare <img height=...>.
-     The <br clear="all"> after the links line keeps the stack and later sections under the float. -->
+     The <br clear="all"> after the stack keeps later sections under the float. -->
 <picture><img src="output/bonsai.gif" width="184" align="right" alt="a pixel-art bonsai grown from my commit history" /></picture>
-
-I'm a 14-year-old in Class 9 in Chennai, and I lead my school's robotics team. I pair with coding agents to ship faster, and I own everything that touches the hardware.
-
-[Portfolio](https://raghavkrishna-dev.vercel.app) &nbsp;&nbsp; [X](https://x.com/raghav7krishna)<br clear="all" />
 
 <p>
 <a href="https://www.espressif.com/"><img src="assets/stack/esp32.svg" width="56" alt="ESP32" /></a>&nbsp;
@@ -42,7 +42,7 @@ I'm a 14-year-old in Class 9 in Chennai, and I lead my school's robotics team. I
 <a href="https://claude.com/product/claude-code"><img src="assets/stack/claude-code.svg" width="56" alt="Claude Code" /></a>&nbsp;
 <a href="https://opencode.ai/"><img src="assets/stack/opencode.svg" width="56" alt="OpenCode" /></a>&nbsp;
 <a href="https://www.deepseek.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=deepseek&amp;theme=dark" width="56" alt="DeepSeek" /></a>&nbsp;
-<a href="https://ollama.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=ollama&amp;theme=dark" width="56" alt="Ollama" /></a>
+<a href="https://ollama.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=ollama&amp;theme=dark" width="56" alt="Ollama" /></a><br clear="all" />
 </p>
 
 ![Won: RIRC 2026, HingeGuard](https://img.shields.io/badge/Won-RIRC%202026%2C%20HingeGuard-1B2A33?labelColor=C73A72&style=flat-square) [![Won: PEC Hacks 4.0](https://img.shields.io/badge/Won-PEC%20Hacks%204.0-1B2A33?labelColor=C73A72&style=flat-square)](#shipped-in-2026) [![Top 5: ZRC Technoxian 2026](https://img.shields.io/badge/Top%205-ZRC%20Technoxian%202026-1B2A33?labelColor=1F7A92&style=flat-square)](#shipped-in-2026) [![Qualified: NRC (Noida)](https://img.shields.io/badge/Qualified-NRC%20(Noida)-1B2A33?labelColor=1F7A92&style=flat-square)](#shipped-in-2026)
