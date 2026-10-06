@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="X PROFILE">
-<title>X PROFILE</title>
-<rect x=".5" y=".5" width="149" height="33" rx="8" fill="#0b1a26" stroke="#1f3a4f"/>
-<text x="16" y="22" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="800" fill="#f2f8fb" textLength="74" lengthAdjust="spacing">X PROFILE</text>
-<path d="M123 22.5 L135 10.5 M126 10.5 H135 V19.5" fill="none" stroke="#f2f8fb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
