@@ -4,8 +4,10 @@
 <tr>
 <td width="150" align="center" valign="middle"><img src="output/bonsai.gif" width="130" alt="a pixel-art bonsai grown from my commit history" /><br /><sub>grown from commits</sub></td>
 <td valign="middle">
-<img src="assets/design/spacer.svg" width="100%" height="1" align="right" alt="" /><b>Role</b> &nbsp; Lead of my school's robotics team<br />
-<b>Based</b> &nbsp; Chennai, India. Class 9, age 14<br />
+<img src="assets/design/spacer.svg" width="100%" height="1" align="right" alt="" /><b>Name</b> &nbsp; Raghav Krishna<br />
+<b>Age</b> &nbsp; 14, Class 9<br />
+<b>Based</b> &nbsp; Chennai, India<br />
+<b>Role</b> &nbsp; Lead of my school's robotics team<br />
 <b>Builds</b> &nbsp; ESP32 hardware, ML pipelines, web apps<br />
 <b>Workflow</b> &nbsp; Pairs with coding agents to ship faster<br />
 <b>Owns</b> &nbsp; Everything that touches the hardware<br /><br />
