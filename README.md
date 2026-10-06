@@ -1,4 +1,4 @@
-<img src="assets/sheet/hero.svg" width="100%" align="top" alt="Raghav Krishna. Robotics lead, age 14, Class 9, Chennai, India. ESP32 hardware, ML pipelines and web apps." /><br />
+<a href="https://github.com/egorthinks/git-bonsai"><img src="output/bonsai.gif" align="right" width="18%" alt="a pixel-art bonsai grown from my commit history" /></a><img src="output/spacer.png" align="right" width="6%" height="1" alt="" /><img src="assets/sheet/hero.svg" width="100%" align="top" alt="Raghav Krishna. Robotics lead, age 14, Class 9, Chennai, India. ESP32 hardware, ML pipelines and web apps." /><br />
 <a href="https://raghavkrishna-dev.vercel.app"><img src="assets/sheet/contact-portfolio.svg" width="50%" align="top" alt="Portfolio: raghavkrishna-dev.vercel.app" /></a><a href="https://x.com/raghav7krishna"><img src="assets/sheet/contact-x.svg" width="50%" align="top" alt="X: @raghav7krishna" /></a><br />
 <img src="assets/sheet/record.svg" width="100%" align="top" alt="Record. 2 wins: RIRC 2026 and PEC Hacks 4.0. Top 5 at ZRC Technoxian 2026 with CRASH. Qualified for NRC, Noida, with CRASH. Also Shark Tank Challenge 2026 with Volt." /><br />
 <img src="assets/sheet/projects.svg" width="100%" align="top" alt="Projects" /><br />
@@ -10,8 +10,4 @@
 <a name="urbania-build"><img src="assets/sheet/run-urbania.svg" width="50%" align="top" alt="urbania is a desktop game: a Windows executable, with no web demo." /></a><a href="https://saas-lab-ten.vercel.app"><img src="assets/sheet/run-saas.svg" width="50%" align="top" alt="Live demo of saas-lab: saas-lab-ten.vercel.app" /></a><br />
 <img src="assets/sheet/toolchain.svg" width="100%" align="top" alt="Toolchain. Embedded and 3D: ESP32, Arduino, C, C++, Raylib, Blender. Web: TypeScript, React, HTML, CSS, Vercel. Data and backend: Python, FastAPI, Supabase, MongoDB, Pandas, scikit-learn. Tools and AI: Git, Linux, Claude Code, OpenCode, DeepSeek, Ollama." />
 
-<p align="center"><br /><img src="output/bonsai.gif" width="28%" alt="a pixel-art bonsai grown from my commit history" /></p>
-
-<p align="center"><sub>Grown from my commit history by <a href="https://github.com/egorthinks/git-bonsai">git-bonsai</a>, regrown every day.</sub></p>
-
-<p align="center"><img src="https://badge.ava.kim/badge.svg?tz=Asia/Kolkata&pack=tech-facts,dev-humor,stoic&seed=Raghav2012Code&style=flat&color=8b949e" alt="Daily line from badge.ava.kim: a tech fact, dev joke or stoic quote" /></p>
+<p align="right"><sub>The bonsai is grown from my commit history by <a href="https://github.com/egorthinks/git-bonsai">git-bonsai</a> and regrown every day.</sub></p>
