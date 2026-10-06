@@ -1,41 +1,38 @@
-"""Compose output/bonsai.gif into the README's Projects band: output/bonsai-cell.gif.
+"""Compose output/bonsai.gif into the README's bonsai side-build card: output/bonsai-cell.gif.
 
-The README is a grid of white panels with 1.5px ink borders. The bonsai stands at the right
-end of the Projects header band, its pot on the line above the project list, like a plant at
-the end of a shelf. The cell is the right third of that band:
-
-- the band's left part (assets/sheet/projects.svg) has no right edge, so the band reads as one;
-- the line the tree stands on is the Vault row's top edge, drawn just below this image;
-- the line above is the Record panel's bottom edge;
-- so this image draws only the sheet's right edge.
+The README is a grid of white panels with 1.5px ink borders. Under the side builds sits a
+card for this tree: "Side build · GitHub Actions / bonsai / Grown from my commits, regrown
+every day." (assets/sheet/bonsai-card.svg), and this image is the tree half of that card.
+It draws no lines of its own: the side-build cards above draw its top edge, the saas-lab
+demo cell beside it draws its right edge, the Toolchain panel draws its bottom edge, and it
+joins the card text on its left with no divider, so the text and the tree read as one card.
 
 The ground is the sheet's white rather than transparent, so GitHub's dark page never shows
 through the sheet. The tree is scaled by a whole number with nearest-neighbour so every art
-pixel stays square. The canvas is 2x the cell's 280x124 layout size so the tree stays sharp
-on high-DPI screens, and the edge is laid out to rasterise like the SVG borders at half size.
+pixel stays square, centred across the cell, and its pot stands on the card description's
+last baseline. The canvas is 2x the cell's 168x150 layout size so the tree stays sharp on
+high-DPI screens.
 """
 import pathlib
 import sys
 
-from PIL import Image, ImageDraw, ImageSequence
+from PIL import Image, ImageSequence
 
 SRC = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "output/bonsai.gif")
 OUT = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else "output/bonsai-cell.gif")
 
 SCALE = 2
-W, H = 280 * SCALE, 124 * SCALE
-EDGE = 3                        # 1.5 layout px, flush with the outer edge like the SVG borders
-BOX_W, BOX_H = 240 * SCALE, 112 * SCALE
-PAPER, INK = (255, 255, 255), (17, 17, 17)
+W, H = 168 * SCALE, 150 * SCALE
+BASELINE = 127 * SCALE          # the card description's last baseline; the pot stands on it
+BOX_W, BOX_H = 144 * SCALE, 117 * SCALE
+PAPER = (255, 255, 255)
 
 
 def cell_frame(tree, size):
     canvas = Image.new("RGB", (W, H), PAPER)
-    d = ImageDraw.Draw(canvas)
-    d.rectangle([W - EDGE, 0, W - 1, H - 1], fill=INK)    # sheet's right edge
     t = tree.resize(size, Image.NEAREST)
-    x = (W - EDGE - size[0]) // 2
-    y = H - size[1]                                       # pot stands on the line below the band
+    x = (W - size[0]) // 2
+    y = max(0, BASELINE - size[1])
     canvas.paste(t, (x, y), t)
     return canvas
 
