@@ -1,17 +1,18 @@
-"""Compose output/bonsai.gif into the README sheet's colophon cell: output/bonsai-cell.gif.
+"""Compose output/bonsai.gif into the README's Projects band: output/bonsai-cell.gif.
 
-The README is a grid of white panels with 1.5px ink borders. The bonsai stands in the
-bottom-right cell straight on the sheet's white, so it reads as part of the page. The ground
-is the sheet's white rather than transparent: a transparent cell would show GitHub's dark
-page through the sheet in dark mode. This cell is the sheet's corner, so it draws the
-sheet's right and bottom edges itself; the colophon note's border and the Toolchain panel
-draw its left and top edges.
+The README is a grid of white panels with 1.5px ink borders. The bonsai stands at the right
+end of the Projects header band, its pot on the line above the project list, like a plant at
+the end of a shelf. The cell is the right third of that band:
 
-The tree is scaled by a whole number with nearest-neighbour so every art pixel stays square,
-centred across the cell, and its pot stands on the colophon note's last baseline.
+- the band's left part (assets/sheet/projects.svg) has no right edge, so the band reads as one;
+- the line the tree stands on is the Vault row's top edge, drawn just below this image;
+- the line above is the Record panel's bottom edge;
+- so this image draws only the sheet's right edge.
 
-The canvas is 2x the cell's 280x170 layout size so the tree stays sharp on high-DPI screens.
-Edges are laid out so that, drawn at half size, they rasterise like the SVG borders.
+The ground is the sheet's white rather than transparent, so GitHub's dark page never shows
+through the sheet. The tree is scaled by a whole number with nearest-neighbour so every art
+pixel stays square. The canvas is 2x the cell's 280x124 layout size so the tree stays sharp
+on high-DPI screens, and the edge is laid out to rasterise like the SVG borders at half size.
 """
 import pathlib
 import sys
@@ -22,10 +23,9 @@ SRC = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "output/bonsai.gif")
 OUT = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else "output/bonsai-cell.gif")
 
 SCALE = 2
-W, H = 280 * SCALE, 170 * SCALE
+W, H = 280 * SCALE, 124 * SCALE
 EDGE = 3                        # 1.5 layout px, flush with the outer edge like the SVG borders
-BASELINE = 142 * SCALE          # the colophon note's last baseline; the pot stands on it
-BOX_W, BOX_H = 220 * SCALE, 118 * SCALE
+BOX_W, BOX_H = 240 * SCALE, 112 * SCALE
 PAPER, INK = (255, 255, 255), (17, 17, 17)
 
 
@@ -33,10 +33,9 @@ def cell_frame(tree, size):
     canvas = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(canvas)
     d.rectangle([W - EDGE, 0, W - 1, H - 1], fill=INK)    # sheet's right edge
-    d.rectangle([0, H - EDGE, W - 1, H - 1], fill=INK)    # sheet's bottom edge
     t = tree.resize(size, Image.NEAREST)
     x = (W - EDGE - size[0]) // 2
-    y = max(0, BASELINE - size[1])
+    y = H - size[1]                                       # pot stands on the line below the band
     canvas.paste(t, (x, y), t)
     return canvas
 
