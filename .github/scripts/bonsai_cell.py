@@ -1,14 +1,17 @@
 """Compose output/bonsai.gif into the README sheet's colophon cell: output/bonsai-cell.gif.
 
-The README is a grid of white panels with 1.5px ink borders. The bonsai sits in the
-bottom-right cell on an ink display plate, mounted on a white mat so the sheet stays one
-white rectangle in GitHub's dark mode too. This cell is the sheet's corner, so it draws the
+The README is a grid of white panels with 1.5px ink borders. The bonsai stands in the
+bottom-right cell straight on the sheet's white, so it reads as part of the page. The ground
+is the sheet's white rather than transparent: a transparent cell would show GitHub's dark
+page through the sheet in dark mode. This cell is the sheet's corner, so it draws the
 sheet's right and bottom edges itself; the colophon note's border and the Toolchain panel
 draw its left and top edges.
 
-The canvas is 2x the cell's 280x170 layout size so the pixel-art tree stays sharp on
-high-DPI screens. Edges are laid out so that, drawn at half size, they rasterise like the
-SVG borders: one full ink pixel on the edge and a half-tone pixel inside it.
+The tree is scaled by a whole number with nearest-neighbour so every art pixel stays square,
+centred across the cell, and its pot stands on the colophon note's last baseline.
+
+The canvas is 2x the cell's 280x170 layout size so the tree stays sharp on high-DPI screens.
+Edges are laid out so that, drawn at half size, they rasterise like the SVG borders.
 """
 import pathlib
 import sys
@@ -20,24 +23,20 @@ OUT = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else "output/bonsai-cell.gif
 
 SCALE = 2
 W, H = 280 * SCALE, 170 * SCALE
-MAT = 16 * SCALE                # white margin between the cell edges and the plate
-BOX_W, BOX_H = 220 * SCALE, 112 * SCALE   # plate interior less 12px padding
+EDGE = 3                        # 1.5 layout px, flush with the outer edge like the SVG borders
+BASELINE = 142 * SCALE          # the colophon note's last baseline; the pot stands on it
+BOX_W, BOX_H = 220 * SCALE, 118 * SCALE
 PAPER, INK = (255, 255, 255), (17, 17, 17)
-PLATE = INK
 
 
 def cell_frame(tree, size):
     canvas = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(canvas)
-    # sheet edges: 1.5 layout px = 3 canvas px, flush with the outer edge like the SVG borders
-    d.rectangle([W - 3, 0, W - 1, H - 1], fill=INK)
-    d.rectangle([0, H - 3, W - 1, H - 1], fill=INK)
-    # the display plate on its mat
-    d.rectangle([MAT, MAT, W - 3 - MAT - 1, H - 3 - MAT - 1], fill=PLATE)
+    d.rectangle([W - EDGE, 0, W - 1, H - 1], fill=INK)    # sheet's right edge
+    d.rectangle([0, H - EDGE, W - 1, H - 1], fill=INK)    # sheet's bottom edge
     t = tree.resize(size, Image.NEAREST)
-    pw, ph = W - 3 - 2 * MAT, H - 3 - 2 * MAT
-    x = MAT + (pw - size[0]) // 2
-    y = MAT + (ph - size[1]) // 2
+    x = (W - EDGE - size[0]) // 2
+    y = max(0, BASELINE - size[1])
     canvas.paste(t, (x, y), t)
     return canvas
 
