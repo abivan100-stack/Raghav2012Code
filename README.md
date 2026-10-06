@@ -1,18 +1,17 @@
-<img src="assets/design/hero.svg" width="100%" align="top" alt="Raghav Krishna. Robotics lead, age 14, Class 9, Chennai, India. ESP32 hardware, ML pipelines and web apps." />
+<img src="assets/sheet/hero.svg" width="100%" align="top" alt="Raghav Krishna. Robotics lead, age 14, Class 9, Chennai, India. ESP32 hardware, ML pipelines and web apps." /><br />
+<a href="https://raghavkrishna-dev.vercel.app"><img src="assets/sheet/contact-portfolio.svg" width="50%" align="top" alt="Portfolio: raghavkrishna-dev.vercel.app" /></a><a href="https://x.com/raghav7krishna"><img src="assets/sheet/contact-x.svg" width="50%" align="top" alt="X: @raghav7krishna" /></a><br />
+<img src="assets/sheet/record.svg" width="100%" align="top" alt="Record. 2 wins: RIRC 2026 and PEC Hacks 4.0. Top 5 at ZRC Technoxian 2026 with CRASH. Qualified for NRC, Noida, with CRASH. Also Shark Tank Challenge 2026 with Volt." />
 
-<a href="https://raghavkrishna-dev.vercel.app"><img src="assets/design/link-portfolio.svg" width="50%" align="top" alt="Portfolio: raghavkrishna-dev.vercel.app" /></a><a href="https://x.com/raghav7krishna"><img src="assets/design/link-x.svg" width="50%" align="top" alt="X: @raghav7krishna" /></a>
-
-<img src="assets/design/record.svg" width="100%" align="top" alt="Record: 2 wins, RIRC 2026 and PEC Hacks 4.0. Top 5 at ZRC Technoxian 2026. Qualified for NRC, Noida. Participated in Shark Tank Challenge 2026." />
-
-<a href="https://github.com/abivan100-stack/vault"><img src="assets/design/work-vault.svg" width="50%" align="top" alt="Vault. Won PEC Hacks 4.0. Vaccine cold-chain ledger with verifiable entries." /></a><a href="https://github.com/abivan100-stack/C.R.A.S.H"><img src="assets/design/work-crash.svg" width="50%" align="top" alt="CRASH. Top 5 at ZRC Technoxian 2026. Ranks Chennai's deadliest junctions from 10,169 recorded incidents." /></a>
-
-<a href="https://github.com/abivan100-stack/volt-ledger"><img src="assets/design/work-volt.svg" width="50%" align="top" alt="Volt. Shark Tank Challenge 2026. Peer-to-peer rooftop solar ledger." /></a><a href="https://github.com/Raghav2012Code/epl-predictor"><img src="assets/design/work-epl.svg" width="50%" align="top" alt="EPL Predictor. Calibrated Premier League forecasts from a stacked ensemble." /></a>
-
-<a href="https://github.com/Raghav2012Code/urbania"><img src="assets/design/side-urbania.svg" width="50%" align="top" alt="urbania. Top-down city simulator in C++ and raylib." /></a><a href="https://github.com/Raghav2012Code/saas-lab"><img src="assets/design/side-saas.svg" width="50%" align="top" alt="saas-lab. Interactive SaaS financial model." /></a>
+<img src="assets/sheet/projects.svg" width="100%" align="top" alt="Projects" /><br />
+<a href="https://github.com/abivan100-stack/vault"><img src="assets/sheet/project-vault.svg" width="100%" align="top" alt="Vault. Won PEC Hacks 4.0. Vaccine cold chain ledger with verifiable entries." /></a><br />
+<a href="https://github.com/abivan100-stack/C.R.A.S.H"><img src="assets/sheet/project-crash.svg" width="100%" align="top" alt="CRASH. Top 5 at ZRC Technoxian 2026. Ranks Chennai's deadliest junctions from 10,169 recorded incidents." /></a><br />
+<a href="https://github.com/abivan100-stack/volt-ledger"><img src="assets/sheet/project-volt.svg" width="100%" align="top" alt="Volt. Shark Tank Challenge 2026. Peer-to-peer rooftop solar ledger." /></a><br />
+<a href="https://github.com/Raghav2012Code/epl-predictor"><img src="assets/sheet/project-epl.svg" width="100%" align="top" alt="EPL Predictor. Calibrated match forecasts from a stacked ensemble." /></a><br />
+<a href="https://github.com/Raghav2012Code/urbania"><img src="assets/sheet/side-urbania.svg" width="50%" align="top" alt="urbania. 2D top-down city simulator in C++ and raylib." /></a><a href="https://github.com/Raghav2012Code/saas-lab"><img src="assets/sheet/side-saas.svg" width="50%" align="top" alt="saas-lab. Interactive SaaS financial modelling tool." /></a>
 
 <p align="right"><sub>Live demos: <a href="https://crash-chennai.vercel.app">CRASH</a> &nbsp;·&nbsp; <a href="https://saas-lab-ten.vercel.app">saas-lab</a></sub></p>
 
-<img src="assets/design/toolchain.svg" width="100%" align="top" alt="Toolchain. Embedded and 3D: ESP32, Arduino, C, C++, Raylib, Blender. Web: TypeScript, React, HTML, CSS, Vercel. Data and backend: Python, FastAPI, Supabase, MongoDB, Pandas, scikit-learn. Tools and AI: Git, Linux, Claude Code, OpenCode, DeepSeek, Ollama." />
+<img src="assets/sheet/toolchain.svg" width="100%" align="top" alt="Toolchain. Embedded and 3D: ESP32, Arduino, C, C++, Raylib, Blender. Web: TypeScript, React, HTML, CSS, Vercel. Data and backend: Python, FastAPI, Supabase, MongoDB, Pandas, scikit-learn. Tools and AI: Git, Linux, Claude Code, OpenCode, DeepSeek, Ollama." />
 
 <p align="center"><br /><img src="output/bonsai.gif" width="28%" alt="a pixel-art bonsai grown from my commit history" /></p>
 
