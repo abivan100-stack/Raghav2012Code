@@ -1,32 +1,43 @@
-"""Compose output/bonsai.gif into a white README sheet cell: output/bonsai-cell.gif.
+"""Compose output/bonsai.gif into the README sheet's colophon cell: output/bonsai-cell.gif.
 
-The README is a grid of white panels with 1.5px ink borders. This cell is the middle third
-of the contact row, so it draws no borders of its own: the neighbouring SVG cells draw its
-left and right edges and the Record panel below draws the line the pot stands on. That keeps
-every line in the grid a crisp vector. The tree is scaled with nearest-neighbour so the pixel
-art stays sharp, centred, and its pot sits on the bottom edge.
+The README is a grid of white panels with 1.5px ink borders. The bonsai sits in the
+bottom-right cell on an ink display plate, mounted on a white mat so the sheet stays one
+white rectangle in GitHub's dark mode too. This cell is the sheet's corner, so it draws the
+sheet's right and bottom edges itself; the colophon note's border and the Toolchain panel
+draw its left and top edges.
 
-The canvas is 2x the cell's 280x200 layout size so the tree stays sharp on high-DPI screens.
+The canvas is 2x the cell's 280x170 layout size so the pixel-art tree stays sharp on
+high-DPI screens. Edges are laid out so that, drawn at half size, they rasterise like the
+SVG borders: one full ink pixel on the edge and a half-tone pixel inside it.
 """
 import pathlib
 import sys
 
-from PIL import Image, ImageSequence
+from PIL import Image, ImageDraw, ImageSequence
 
 SRC = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "output/bonsai.gif")
 OUT = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else "output/bonsai-cell.gif")
 
 SCALE = 2
-W, H = 280 * SCALE, 200 * SCALE
-BOX_W, BOX_H = 200 * SCALE, 132 * SCALE
-PAPER = (255, 255, 255)
+W, H = 280 * SCALE, 170 * SCALE
+MAT = 16 * SCALE                # white margin between the cell edges and the plate
+BOX_W, BOX_H = 220 * SCALE, 112 * SCALE   # plate interior less 12px padding
+PAPER, INK = (255, 255, 255), (17, 17, 17)
+PLATE = INK
 
 
 def cell_frame(tree, size):
     canvas = Image.new("RGB", (W, H), PAPER)
+    d = ImageDraw.Draw(canvas)
+    # sheet edges: 1.5 layout px = 3 canvas px, flush with the outer edge like the SVG borders
+    d.rectangle([W - 3, 0, W - 1, H - 1], fill=INK)
+    d.rectangle([0, H - 3, W - 1, H - 1], fill=INK)
+    # the display plate on its mat
+    d.rectangle([MAT, MAT, W - 3 - MAT - 1, H - 3 - MAT - 1], fill=PLATE)
     t = tree.resize(size, Image.NEAREST)
-    x = (W - size[0]) // 2
-    y = H - size[1]                                        # pot stands on the Record panel's top line
+    pw, ph = W - 3 - 2 * MAT, H - 3 - 2 * MAT
+    x = MAT + (pw - size[0]) // 2
+    y = MAT + (ph - size[1]) // 2
     canvas.paste(t, (x, y), t)
     return canvas
 
@@ -39,6 +50,8 @@ def main():
         durations.append(fr.info.get("duration", src.info.get("duration", 100)))
     w, h = frames[0].size
     k = min(BOX_W / w, BOX_H / h)
+    if k >= 1:
+        k = int(k)              # whole-number scale keeps every art pixel square
     size = (max(1, round(w * k)), max(1, round(h * k)))
 
     composed = [cell_frame(f, size) for f in frames]

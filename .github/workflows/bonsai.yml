@@ -70,7 +70,7 @@ jobs:
           echo "frames=${FR}"   >> "$GITHUB_OUTPUT"
 
       - name: Compose the README sheet cell
-        # the README shows the tree as a white cell of its grid (output/bonsai-cell.gif).
+        # the README shows the tree as the colophon cell of its grid (output/bonsai-cell.gif).
         # Non-blocking: if this fails, today's tree is still committed and the cell keeps
         # yesterday's tree rather than losing the whole re-grow.
         continue-on-error: true
